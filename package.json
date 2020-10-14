@@ -1,0 +1,15 @@
+{
+  "name": "headlessdesk",
+  "version": "0.0.1",
+  "description": "A headless spacedesk client",
+  "main": "spacedesk.min.js",
+  "scripts": {
+    "postinstall": "node service.js install",
+    "uninstall": "node service.js uninstall"
+  },
+  "author": "jorubyp",
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.5",
+    "websocket": "^1.0.32"
+  }
+}
